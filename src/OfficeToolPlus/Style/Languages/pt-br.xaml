@@ -256,14 +256,14 @@
     <sys:String x:Key="ErrorCode">Código de Erro: </sys:String>
     <sys:String x:Key="ErrorDescrpition">Descrição do Erro: </sys:String>
     <sys:String x:Key="ErrorUnknown">Um erro desconhecido ocorreu.</sys:String>
-    <sys:String x:Key="StatusLicensed"> **---LICENCIADO---** </sys:String>
-    <sys:String x:Key="StatusUnlicensed"> `---NÂO LICENCIADO---` </sys:String>
-    <sys:String x:Key="StatusOOBGrace"> `---PERÍODO OOB---` </sys:String>
-    <sys:String x:Key="StatusOOTGrace"> `---PERÍODO OOT---` </sys:String>
-    <sys:String x:Key="StatusNonGenuineGrace"> `---PERÍODO NÃO GENUÍNO---` </sys:String>
-    <sys:String x:Key="StatusNotifications"> `---NOTIFICACÕES---` </sys:String>
-    <sys:String x:Key="StatusExtendedGrace"> `---PERÍODO EXTENDIDO---` </sys:String>
-    <sys:String x:Key="StatusUnknown"> `---DESCONHECIDO---` </sys:String>
+    <sys:String x:Key="StatusLicensed"> **LICENCIADO** </sys:String>
+    <sys:String x:Key="StatusUnlicensed">`NÂO LICENCIADO`</sys:String>
+    <sys:String x:Key="StatusOOBGrace">`PERÍODO OOB`</sys:String>
+    <sys:String x:Key="StatusOOTGrace">`PERÍODO OOT`</sys:String>
+    <sys:String x:Key="StatusNonGenuineGrace">`PERÍODO NÃO GENUÍNO`</sys:String>
+    <sys:String x:Key="StatusNotifications">`NOTIFICACÕES`</sys:String>
+    <sys:String x:Key="StatusExtendedGrace">`PERÍODO EXTENDIDO`</sys:String>
+    <sys:String x:Key="StatusUnknown">`DESCONHECIDO`</sys:String>
 
     <sys:String x:Key="AppliedSetting">Configuração aplicada com sucesso.</sys:String>
     <sys:String x:Key="NoKMSLics">Nenhuma licença do Office KMS foi encontrada no sistema.</sys:String>
@@ -341,10 +341,12 @@
     <sys:String x:Key="ToolboxRepairVariablesDescription">Isto irá redefinir as variáveis do sistema para os seus valores padrão. Não use isto se não tiver certeza.&#x000A;&#x000A;Após a reparação ser concluída, você precisará reiniciar o sistema aplicar as alterações.</sys:String>
     <sys:String x:Key="ToolboxRepairWMI">Reparar componente WMI</sys:String>
     <sys:String x:Key="ToolboxRepairWMIDescription">Isto irá registrar novamente o componente WMI. Não use isto se não tiver certeza.&#x000A;&#x000A;Após a reparação ser concluída, você precisará reiniciar o sistema para aplicar as alterações.</sys:String>
-    <sys:String x:Key="ToolboxRepairTemplates">Restaurar modelo de documento padrão do Word</sys:String>
-    <sys:String x:Key="ToolboxRepairTemplatesDescription">Isto irá recriar o modelo padrão do Word.</sys:String>
     <sys:String x:Key="ToolboxResetOfficeSettings">Restaurar configurações do Office para os padrões originais</sys:String>
-    <sys:String x:Key="ToolboxResetOfficeSettingsDescription">Esta opção irá redefinir as configurações do Office, incluindo todas as configurações do aplicativo, histórico local e caminhos recentes. Nota: Feche todas as aplicações do Office antes de continuar.</sys:String>
+    <sys:String x:Key="ToolboxResetOfficeSettingsDescription">Restaurar o Office para as configurações padrão como você desejar. Antes de começar, feche todos os aplicativos do Office.</sys:String>
+    <sys:String x:Key="ToolboxResetOfficeSettingsUserSettings">Excluir configurações atuais do usuário (inclui configurações dos aplicativos do Office, arquivos abertos recentemente e locais salvos recentemente).</sys:String>
+    <sys:String x:Key="ToolboxResetOfficeSettingsUserProfiles">Excluir perfis dos aplicativos (inclui cache dos aplicativos).</sys:String>
+    <sys:String x:Key="ToolboxResetOfficeSettingsNormalTemplate">Excluir o modelo Normal (Normal.dotm).</sys:String>
+    <sys:String x:Key="ToolboxResetOfficeSettingsGlobalSettings">Excluir configurações de preferências dos aplicativos.</sys:String>
     <!-- Convert Document -->
     <sys:String x:Key="ConvertSourceFormat">Formato de entrada:</sys:String>
     <sys:String x:Key="ConvertOutputFormat">Formato de saída:</sys:String>
@@ -424,6 +426,7 @@
     <sys:String x:Key="SettingsLocalizedName">Nome localizado</sys:String>
     <sys:String x:Key="SettingsAdvanced">Habilitar recursos avançados</sys:String>
     <sys:String x:Key="SettingsHWAcceleration">Habilitar aceleração por hardware</sys:String>
+    <sys:String x:Key="SettingsForceRTLLayout">Forçar direção do layout para RTL</sys:String>
     <!-- About Panel -->
     <sys:String x:Key="AppInf">Informações do aplicativo</sys:String>
     <sys:String x:Key="Homepage">Site:</sys:String>
@@ -443,8 +446,7 @@
     <sys:String x:Key="Task_VerifyFiles">Verificando arquivos. Por favor, aguarde...</sys:String>
     <sys:String x:Key="Task_DownloadingContent">Obtendo o conteúdo. Por favor, aguarde...</sys:String>
     <sys:String x:Key="Task_PreparingDownload">Preparando para baixar o Office.</sys:String>
-    <sys:String x:Key="Task_DeployClickToRun">Instalando Click-to-Run.</sys:String>
-    <sys:String x:Key="Task_ODT">O Office Deployment Tool está em execução agora. Por favor, aguarde.</sys:String>
+    <sys:String x:Key="Task_ODT">Implementando agora. Por favor, aguarde...</sys:String>
     <sys:String x:Key="Task_OSPP">O OSPP está em execução agora. Por favor, aguarde.</sys:String>
     <sys:String x:Key="Task_SearchKMSAEvent">Procurando eventos de ativação kms na máquina: {0}</sys:String>
     <sys:String x:Key="Task_SearchIAFEvent">Procurando eventos de falha de ativação pela Internet na máquina: {0}</sys:String>
@@ -488,6 +490,7 @@
     <sys:String x:Key="InfoInstallationComplete">A instalação foi concluída.</sys:String>
     <sys:String x:Key="InfoInstallationFailed">A instalação falhou.</sys:String>
     <sys:String x:Key="InfoNoOfficeDetectedForActivation">A versão do Click-to-Run do Office não foi detectada neste computador, as licenças do Office não puderam ser carregadas.</sys:String>
+    <sys:String x:Key="Info64BitOfficeForConversion">Você está usando a versão de 64 bits do Office, a conversão de documentos pode não funcionar corretamente.</sys:String>
 
     <!-- Success Message -->
     <sys:String x:Key="SuccessAddDownloadTask">Tarefas de download adicionadas com sucesso.</sys:String>

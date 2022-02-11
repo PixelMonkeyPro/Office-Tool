@@ -1,0 +1,30 @@
+{
+    "en-us": {
+        "Title": "Having an issue with license?",
+        "Content": "If your Office showed that your Office license is not genuine, you can repair it on **Toolbox - Repair Office license issue** (requires a valid KMS host). Reinstalling or reactivating Office is not needed."
+    },
+    "fr-fr": {
+        "Title": "Avoir un problème avec la licence ?",
+        "Content": "Si votre Office a montré que votre licence Office n’est pas authentique, vous pouvez le réparer sur **Boîte à outils - Réparer le problème de licence Office** (nécessite un hôte KMS valide). Réinstaller Office ou le réactiver n’est pas nécessaire."
+    },
+    "ko-kr": {
+        "Title": "정품인정 되지 못하는 경고 받았어요?",
+        "Content": "정품인정 되지 못하는 Office를 사용하고 있단 경고를 받으면 재설치와 다시 정품인정 필요 없이 툴박스에서 [Office 라이선스 문제 복원] 기능으로 쉽게 해결할 수 있습니다. KMS호스트를 제대로 입력해야합니다. 않이면 정품인정 상태가 반년 이후 무효될겁니다."
+    },
+    "nl-nl": {
+        "Title": "Een probleem met de licentie?",
+        "Content": "Als uit uw Office blijkt dat uw Office-licentie niet juist is, kunt u deze repareren op **Toolbox - Probleem met Office-licentie repareren** (vereist een geldige KMS-host). Office opnieuw installeren of opnieuw activeren is niet nodig."
+    },
+    "pl-pl": {
+        "Title": "Masz problem z licencją?",
+        "Content": "Jeśli Twój pakiet Office wykazał, że Twoja licencja pakietu Office nie jest oryginalna, możesz ją naprawić za pomocą **Przybornik — Napraw problem z licencją pakietu Office** (wymaga prawidłowego hosta usługi KMS). Ponowna instalacja pakietu Office lub ponowna aktywacja nie jest potrzebna."
+    },
+    "zh-cn": {
+        "Title": "遇到非正版提示啦？",
+        "Content": "如果你的 Office 提示你你使用的 Office 并非正版，你不需要去重装或重新激活，只需要去工具箱使用「修复许可证问题」即可。**记得填写一个正确的 KMS 主机地址哦，否则激活会在半年后失效**。"
+    },
+    "id-id": {
+        "Title": "Memiliki masalah dengan lisensi?",
+        "Content": "Apabila Office anda menampilkan lisensi Office anda tidak asli (your Office license is not genuine), anda bisa memperbaikinya pada **Kotak Alat - Perbaiki masalah lisensi Office** (Memerlukan Host KMS yang valid). Memasang ulang atau mengaktivasi ulang tidak perlu dilakukan."
+    }
+}

@@ -256,14 +256,14 @@
     <sys:String x:Key="ErrorCode">Fehlercode: </sys:String>
     <sys:String x:Key="ErrorDescrpition">Fehlerbeschreibung: </sys:String>
     <sys:String x:Key="ErrorUnknown">Ein unbekannter Fehler ist aufgetreten.</sys:String>
-    <sys:String x:Key="StatusLicensed"> **---LIZENZIERT---** </sys:String>
-    <sys:String x:Key="StatusUnlicensed"> `---UNLIZENZIERT---` </sys:String>
-    <sys:String x:Key="StatusOOBGrace"> `---OOB_LAUFZEIT---` </sys:String>
-    <sys:String x:Key="StatusOOTGrace"> `---OOT_LAUFZEIT---` </sys:String>
-    <sys:String x:Key="StatusNonGenuineGrace"> `---UNGÜLTIGE_LAUFZEIT---` </sys:String>
-    <sys:String x:Key="StatusNotifications"> `---BENACHRICHTIGUNGEN---` </sys:String>
-    <sys:String x:Key="StatusExtendedGrace"> `---VERLÄNGERTE_LAUFZEIT---` </sys:String>
-    <sys:String x:Key="StatusUnknown"> `---UNBEKANNT---` </sys:String>
+    <sys:String x:Key="StatusLicensed"> **LIZENZIERT** </sys:String>
+    <sys:String x:Key="StatusUnlicensed">`UNLIZENZIERT`</sys:String>
+    <sys:String x:Key="StatusOOBGrace">`OOB_LAUFZEIT`</sys:String>
+    <sys:String x:Key="StatusOOTGrace">`OOT_LAUFZEIT`</sys:String>
+    <sys:String x:Key="StatusNonGenuineGrace">`UNGÜLTIGE_LAUFZEIT`</sys:String>
+    <sys:String x:Key="StatusNotifications">`BENACHRICHTIGUNGEN`</sys:String>
+    <sys:String x:Key="StatusExtendedGrace">`VERLÄNGERTE_LAUFZEIT`</sys:String>
+    <sys:String x:Key="StatusUnknown">`UNBEKANNT`</sys:String>
 
     <sys:String x:Key="AppliedSetting">Einstellung erfolgreich angewandt.</sys:String>
     <sys:String x:Key="NoKMSLics">Es wurden keine Office-KMS-Lizenzen auf dem System gefunden..</sys:String>
@@ -341,10 +341,12 @@
     <sys:String x:Key="ToolboxRepairVariablesDescription">Dadurch werden Ihre Systemvariablen auf die Standardwerte zurückgesetzt. Verwenden Sie dies nicht, wenn Sie sich nicht sicher sind.&#x000A;&#x000A;Nachdem die Reparatur abgeschlossen ist, müssen Sie Ihr System neu starten, damit sie wirksam wird.</sys:String>
     <sys:String x:Key="ToolboxRepairWMI">WMI-Komponente reparieren</sys:String>
     <sys:String x:Key="ToolboxRepairWMIDescription">Dadurch wird die WMI-Komponente neu registriert. Verwenden Sie dies nicht, wenn Sie sich nicht sicher sind.&#x000A;&#x000A;Nachdem die Reparatur abgeschlossen ist, müssen Sie Ihr System neu starten, damit sie wirksam wird.</sys:String>
-    <sys:String x:Key="ToolboxRepairTemplates">Word-Standarddokumentvorlagen wiederherstellen</sys:String>
-    <sys:String x:Key="ToolboxRepairTemplatesDescription">Dadurch wird die Standardvorlage von Word neu erstellt.</sys:String>
     <sys:String x:Key="ToolboxResetOfficeSettings">Office-Einstellungen auf die Standardwerte zurücksetzen</sys:String>
-    <sys:String x:Key="ToolboxResetOfficeSettingsDescription">Dies setzt Ihre Office-Einstellungen, einschließlich der Anwendungseinstellungen, des lokalen Dateiverlaufs und der letzten Speicherpfade, zurück.&#x000A;Bitte schließen Sie alle Office-Anwendungen, bevor Sie fortfahren.</sys:String>
+    <sys:String x:Key="ToolboxResetOfficeSettingsDescription">Stellt die Standardeinstellungen von Office wie gewünscht wieder her. Schließen Sie bitte vor dem Start alle Office-Anwendungen.</sys:String>
+    <sys:String x:Key="ToolboxResetOfficeSettingsUserSettings">Aktuelle Benutzereinstellungen löschen (einschließlich der Einstellungen für Office-Anwendungen, zuletzt geöffnete Dateien und den letzten Speicherort).</sys:String>
+    <sys:String x:Key="ToolboxResetOfficeSettingsUserProfiles">Anwendungsprofile löschen (einschließlich Anwendungs-Cache).</sys:String>
+    <sys:String x:Key="ToolboxResetOfficeSettingsNormalTemplate">Die Vorlage "Normal" (Normal.dotm) löschen.</sys:String>
+    <sys:String x:Key="ToolboxResetOfficeSettingsGlobalSettings">Die Einstellungen der Anwendungspräferenzen löschen.</sys:String>
     <!-- Convert Document -->
     <sys:String x:Key="ConvertSourceFormat">Quellformat:</sys:String>
     <sys:String x:Key="ConvertOutputFormat">Zielformat:</sys:String>
@@ -424,6 +426,7 @@
     <sys:String x:Key="SettingsLocalizedName">Lokalisierter Name</sys:String>
     <sys:String x:Key="SettingsAdvanced">Erweiterte Funktionen aktivieren.</sys:String>
     <sys:String x:Key="SettingsHWAcceleration">Hardwarebeschleunigung aktivieren.</sys:String>
+    <sys:String x:Key="SettingsForceRTLLayout">Force RTL layout direction.</sys:String>
     <!-- About Panel -->
     <sys:String x:Key="AppInf">App-Informationen</sys:String>
     <sys:String x:Key="Homepage">Webseite:</sys:String>
@@ -443,8 +446,7 @@
     <sys:String x:Key="Task_VerifyFiles">Dateien werden überprüft, bitte warten Sie.</sys:String>
     <sys:String x:Key="Task_DownloadingContent">Inhalt wird aufgerufen, bitte warten Sie.</sys:String>
     <sys:String x:Key="Task_PreparingDownload">Download von Office wird vorbereitet.</sys:String>
-    <sys:String x:Key="Task_DeployClickToRun">Click-to-Run wird installiert.</sys:String>
-    <sys:String x:Key="Task_ODT">Das Office-Bereitstellungstool wird momentan ausgeführt, bitte warten Sie.</sys:String>
+    <sys:String x:Key="Task_ODT">Wird bereitgestellt, bitte warten Sie.</sys:String>
     <sys:String x:Key="Task_OSPP">OSPP wird momentan ausgeführt, bitte warten Sie.</sys:String>
     <sys:String x:Key="Task_SearchKMSAEvent">Suche nach KMS-Aktivierungsereignissen auf dem Gerät: {0}</sys:String>
     <sys:String x:Key="Task_SearchIAFEvent">Suche nach Internet-Aktivierungsfehlern auf dem Gerät: {0}</sys:String>
@@ -488,6 +490,7 @@
     <sys:String x:Key="InfoInstallationComplete">Die Installation ist abgeschlossen.</sys:String>
     <sys:String x:Key="InfoInstallationFailed">Die Installation ist fehlgeschlagen.</sys:String>
     <sys:String x:Key="InfoNoOfficeDetectedForActivation">Die Click-to-Run-Version von Office wurde auf diesem Computer nicht erkannt, die Office-Lizenzen konnten nicht geladen werden.</sys:String>
+    <sys:String x:Key="Info64BitOfficeForConversion">Sie verwenden eine 64-Bit-Version von Office, die Konvertierung von Dokumenten funktioniert möglicherweise nicht richtig.</sys:String>
 
     <!-- Success Message -->
     <sys:String x:Key="SuccessAddDownloadTask">Download-Tasks erfolgreich hinzugefügt.</sys:String>
@@ -540,4 +543,4 @@
     <sys:String x:Key="ThunderErrorCancel">Die Aufgabe wurde abgebrochen.</sys:String>
 </ResourceDictionary>
 
-<!-- © 2021 | German translation by Berny23 | v4.11 | https://steamcommunity.com/id/Berny23 | https://sourceforge.net/u/berny23 | https://github.com/Berny23 -->
+<!-- © 2022 | German translation by Berny23 | v4.12 | https://steamcommunity.com/id/Berny23 | https://sourceforge.net/u/berny23 | https://github.com/Berny23 -->

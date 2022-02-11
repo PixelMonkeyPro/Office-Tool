@@ -256,14 +256,14 @@
     <sys:String x:Key="ErrorCode">Kode Kesalahan: </sys:String>
     <sys:String x:Key="ErrorDescrpition">Deskripsi Kesalahan: </sys:String>
     <sys:String x:Key="ErrorUnknown">Terjadi kesalahan yang tak diketahui.</sys:String>
-    <sys:String x:Key="StatusLicensed"> **---BERLISENSI---** </sys:String>
-    <sys:String x:Key="StatusUnlicensed"> `---TIDAK_BERLISENSI---` </sys:String>
-    <sys:String x:Key="StatusOOBGrace"> `---MASA_TENGGANG_OOB---` </sys:String>
-    <sys:String x:Key="StatusOOTGrace"> `---MASA_TENGGANG_OOT---` </sys:String>
-    <sys:String x:Key="StatusNonGenuineGrace"> `---MASA_TENGGANG_TIDAK_ASLI---` </sys:String>
-    <sys:String x:Key="StatusNotifications"> `---PEMBERITAHUAN---` </sys:String>
-    <sys:String x:Key="StatusExtendedGrace"> `---PERPANJANG_MASA_TENGGANG---` </sys:String>
-    <sys:String x:Key="StatusUnknown"> `---TAK_DIKETAHUI---` </sys:String>
+    <sys:String x:Key="StatusLicensed"> **BERLISENSI** </sys:String>
+    <sys:String x:Key="StatusUnlicensed">`TIDAK_BERLISENSI`</sys:String>
+    <sys:String x:Key="StatusOOBGrace">`MASA_TENGGANG_OOB`</sys:String>
+    <sys:String x:Key="StatusOOTGrace">`MASA_TENGGANG_OOT`</sys:String>
+    <sys:String x:Key="StatusNonGenuineGrace">`MASA_TENGGANG_TIDAK_ASLI`</sys:String>
+    <sys:String x:Key="StatusNotifications">`PEMBERITAHUAN`</sys:String>
+    <sys:String x:Key="StatusExtendedGrace">`PERPANJANG_MASA_TENGGANG`</sys:String>
+    <sys:String x:Key="StatusUnknown">`TAK_DIKETAHUI`</sys:String>
 
     <sys:String x:Key="AppliedSetting">Pengaturan berhasil diterapkan.</sys:String>
     <sys:String x:Key="NoKMSLics">Tidak ada Lisensi KMS Office yang ditemukan di sistem.</sys:String>
@@ -341,10 +341,12 @@
     <sys:String x:Key="ToolboxRepairVariablesDescription">Ini akan mengatur ulang variabel sistem ke nilai bawaan. Jangan digunakan apabila anda tidak yakin.&#x000A;&#x000A;Setelah perbaikan telah selesai, anda perlu menyalakan ulang sistem anda untuk melihat perubahan.</sys:String>
     <sys:String x:Key="ToolboxRepairWMI">Perbaiki komponen WMI</sys:String>
     <sys:String x:Key="ToolboxRepairWMIDescription">Ini akan mendaftarkan ulang komponen WMI. Jangan digunakan apabila anda tidak yakin.&#x000A;&#x000A;Setelah perbaikan telah selesai, anda perlu menyalakan ulang sistem anda untuk melihat perubahan.</sys:String>
-    <sys:String x:Key="ToolboxRepairTemplates">Mengembalikan template dokumen bawaan Word</sys:String>
-    <sys:String x:Key="ToolboxRepairTemplatesDescription">This will rebuild Word's default template.</sys:String>
     <sys:String x:Key="ToolboxResetOfficeSettings">Kembalikan pengaturan Office ke pengaturan aslinya</sys:String>
-    <sys:String x:Key="ToolboxResetOfficeSettingsDescription">Ini akan mengatur ulang pengaturan Office anda, termasuk pengaturan aplikasi, riwayat berkas lokal, dan jalur penyimpanan terakhir. Catatan: Harap tutup semua aplikasi Office sebelum melanjutkan.</sys:String>
+    <sys:String x:Key="ToolboxResetOfficeSettingsDescription">Kembalikan pengaturan Office ke pengaturan aslinya seperti anda inginkan. Sebelum memulai, silakan tutup semua aplikasi Office.</sys:String>
+    <sys:String x:Key="ToolboxResetOfficeSettingsUserSettings">Hapus pengaturan pengguna saat ini (termasuk pengaturan aplikasi Office, berkas yang baru saja dibuka dan baru saja disimpan).</sys:String>
+    <sys:String x:Key="ToolboxResetOfficeSettingsUserProfiles">Hapus pengaturan profil aplikasi (termasuk cache aplikasi).</sys:String>
+    <sys:String x:Key="ToolboxResetOfficeSettingsNormalTemplate">Hapus templat Normal (Normal.dotm).</sys:String>
+    <sys:String x:Key="ToolboxResetOfficeSettingsGlobalSettings">Hapus pengaturan preferensi aplikasi.</sys:String>
     <!-- Convert Document -->
     <sys:String x:Key="ConvertSourceFormat">Format masukkan:</sys:String>
     <sys:String x:Key="ConvertOutputFormat">Format keluaran:</sys:String>
@@ -424,6 +426,7 @@
     <sys:String x:Key="SettingsLocalizedName">Bahasa wilayah</sys:String>
     <sys:String x:Key="SettingsAdvanced">Fitur lanjutan diaktifkan.</sys:String>
     <sys:String x:Key="SettingsHWAcceleration">Aktifkan akselerasi perangkat keras.</sys:String>
+    <sys:String x:Key="SettingsForceRTLLayout">Mengubah paksa arah tata letak dari kiri ke kanan (RTL).</sys:String>
     <!-- About Panel -->
     <sys:String x:Key="AppInf">Informasi aplikasi</sys:String>
     <sys:String x:Key="Homepage">Laman Depan:</sys:String>
@@ -443,8 +446,7 @@
     <sys:String x:Key="Task_VerifyFiles">Memeriksa berkas, silakan tunggu.</sys:String>
     <sys:String x:Key="Task_DownloadingContent">Mendapatkan konten, silakan tunggu.</sys:String>
     <sys:String x:Key="Task_PreparingDownload">Mempersiapkan untuk mengunduh Office.</sys:String>
-    <sys:String x:Key="Task_DeployClickToRun">Pemasangan Click-to-Run.</sys:String>
-    <sys:String x:Key="Task_ODT">Office Deployment Tool sedang berjalan sekarang, silakan tunggu.</sys:String>
+    <sys:String x:Key="Task_ODT">Memasang sekarang, silakan tunggu.</sys:String>
     <sys:String x:Key="Task_OSPP">OSPP sedang berjalan sekarang, silakan tunggu.</sys:String>
     <sys:String x:Key="Task_SearchKMSAEvent">Mencari peristiwa aktivasi KMS di Perangkat: {0}</sys:String>
     <sys:String x:Key="Task_SearchIAFEvent">Mencari peristiwa gagalnya aktivasi Internet di Perangkat: {0}</sys:String>
@@ -488,6 +490,7 @@
     <sys:String x:Key="InfoInstallationComplete">Pemasangan berhasil.</sys:String>
     <sys:String x:Key="InfoInstallationFailed">Pemasangan gagal.</sys:String>
     <sys:String x:Key="InfoNoOfficeDetectedForActivation">Versi Click-to-Run Office anda tidak terdeteksi di komputer ini, lisensi Office-nya tidak dapat dimuat.</sys:String>
+    <sys:String x:Key="Info64BitOfficeForConversion">Anda menggunakan Office versi 64-bit, konversi dokumen mungkin tidak dapat bekerja dengan benar.</sys:String>
 
     <!-- Success Message -->
     <sys:String x:Key="SuccessAddDownloadTask">Tugas unduhan berhasil ditambahkan.</sys:String>
